@@ -7,7 +7,7 @@ def main():
     pontos = 100
     guess = int(input('Eu tenho um numero... qual numero será esse? '))
 
-    while chutes >= 0:
+    while chutes > 0:
         if guess == num_secreto:
             chutes -= 1
             print(f'você acertou! O numero é {num_secreto}, acertou após {10 - chutes} chutes\nVOCE TEM {pontos} PONTOS')
