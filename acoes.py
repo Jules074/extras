@@ -122,9 +122,9 @@ def remover_acao(a):
     
 def menor_maior(a):
     maior = a[0][3]
-    empresa_maior = ''
+    empresa_maior = a[0][0]
     menor = a[0][3]
-    empresa_menor = ''
+    empresa_menor = a[0][0]
 
     for acao in a:
         if acao[3] > maior:
